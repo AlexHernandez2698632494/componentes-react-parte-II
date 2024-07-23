@@ -2,10 +2,12 @@
 import { useState } from 'react';
 import { Headers } from '../componets/Header';
 import { ProductList } from '../componets/ProductList';
+
 export default function Home() {
   const [allProducts, setAllProducts] = useState([]);
   const [total, setTotal] = useState(0);
   const [countProducts, setCountProducts] = useState(0);
+
   return (
     <>
       <Headers
